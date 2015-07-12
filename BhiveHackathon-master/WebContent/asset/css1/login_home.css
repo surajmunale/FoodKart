@@ -1,0 +1,62 @@
+@CHARSET "ISO-8859-1";
+.body_login_signup {
+	position: absolute;
+	right: 1%;
+	margin-right: 12%;
+	margin-top: 0%;
+	font-family: sans-serif;
+	width: 30%;
+	background-color: #EDF0F5;	
+}
+
+#create_account {
+	font-size: 40px;
+	font: bolder;
+	font-weight: 600;
+}
+
+#punch_line {
+	font-size: large;
+	line-height: 5px;
+}
+
+.details {
+	border: 1px solid #8CA9C6;
+	border-radius: 5px;
+	height: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 8px;
+	color: #9C9999;
+	width: 96%;
+	font-size: medium;
+	font-weight:bold;
+}
+
+#fname {
+	width: 46%;
+}
+
+#lname {
+	width: 47%;
+	margin-left: 2%;
+}
+
+#month,#day,#year {
+	height: 30px;
+}
+
+.body_login_left {
+	margin-top: 3%;
+	left: 14%;
+	position: absolute;
+	width: 40%;
+}
+
+#help {
+	font-family: arial, sans-serif;
+	font-size: xx-large	;
+	font-weight: normal;
+	margin-bottom: 0px;
+	color: #333333;
+}

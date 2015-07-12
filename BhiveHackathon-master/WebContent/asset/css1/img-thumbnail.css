@@ -1,0 +1,24 @@
+.thumbnail{
+    width: 220px;
+    height: 200px;
+}
+.thumbnail img{
+	
+   max-width:100%; 
+   max-height:100%;
+   margin:auto;
+   display:block;
+}
+.thumbnail img{
+margin:50px; 
+height:100px;
+width:100px;
+-moz-transition:-moz-transform 0.5s ease-in; 
+-webkit-transition:-webkit-transform 0.5s ease-in; 
+-o-transition:-o-transform 0.5s ease-in;
+}
+.thumbnail img:hover{
+-moz-transform:scale(4); 
+-webkit-transform:scale(4);
+-o-transform:scale(4);
+}

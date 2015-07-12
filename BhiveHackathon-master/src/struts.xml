@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+   "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+   "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<package name="default" extends="struts-default,json-default">
+			
+		<action name="vegListPopulate" class="vani.loadVegList"	method="vegList">
+			<result name="success">DishList.jsp</result>
+		</action>
+		
+		<action name="loadHotelList" class="vani.loadHotelList"	method="hotelList">
+			<result name="success">hotelList.jsp</result>
+		</action>
+
+		<action name="addInCart" class="vani.addInCart"	method="doGet">
+			<result name="success">DishList.jsp</result>
+		</action>
+			
+		<action name="showCart" class="vani.addInCart"	method="show">
+			<result name="success">CartList.jsp</result>
+		</action>
+		
+		<action name="removeFromCart" class="vani.addInCart"	method="remove">
+			<result name="success">CartList.jsp</result>
+		</action>
+	
+		<action name="clearKartList" class="vani.addInCart"	method="clearList">
+			<result name="success">CartList.jsp</result>
+		</action>
+		
+		
+		<action name="submitreview" class="vani.submitreview"	method="addreview">
+			<result name="success">contact.html</result>
+		</action>
+		
+		
+		
+	</package>
+
+</struts>
+
+
+			
+	
